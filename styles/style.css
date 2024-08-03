@@ -1,0 +1,167 @@
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.white{
+    color: white;
+}
+.p-color{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+}
+
+body{
+    /* border: 1px solid tomato; */
+    margin: 40px 10% 40px 10%;
+    background-color: rgba(17, 17, 17, 1);
+
+}
+
+
+/* header section */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+nav > ul{
+
+    display: flex;
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    gap: 60px;
+    border-radius: 40px;
+    padding: 8px 25px 8px 0;
+    
+}
+nav ul li {
+    list-style: none;
+    align-content: center;
+    
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    display: block;
+}
+.bars{
+    align-content: center;
+    display: none;
+}
+#home{
+    padding: 8px 20px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+}
+.h-title{
+    font-size: 36px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding: 0; */
+    color: rgba(230, 83, 60, 1);
+    
+}
+
+/* head text */
+.head-container{
+    display: flex;
+
+    justify-content: space-between;
+    /* gap: 250px; */
+}
+.head-text{
+    width: 700px;
+}
+#miama{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+                                    
+}
+
+.head-title{
+    font-size: 6em;
+    color: white;
+    font-weight: bold;
+}
+.p-head{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.btn-primary{
+    padding: 16px 40px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 42px;
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 1.1rem;
+    font-weight: 450;
+    color: white;
+}
+
+.btn-download{
+        padding: 16px 40px;
+        border: none;
+        margin-right: 14px;
+        border-radius: 42px;
+        border: 1px solid white;
+        background-color: rgba(17, 17, 17, 1);
+        font-size: 1.1rem;
+        font-weight: 450;
+        color: white;
+    
+}
+
+
+.card-1{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    gap: 12px;
+    margin-top: -200px;
+    margin-left: -115px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    max-width: 206px;
+    background-color: rgba(255, 255, 255, 0.07);
+    max-height: 96px;
+
+}
+.ball{
+    background-color: rgba(230, 83, 60, 1);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.c-title{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.card-2{
+    padding: 16px 23px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    max-width: 193px;
+    max-height: 98px;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin-left: 150px;
+    margin-top: -90%;
+    text-align: left;
+
+}
+
+
