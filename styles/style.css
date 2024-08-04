@@ -275,9 +275,10 @@ header{
 /* bmi-chart */
 .bmi-chart{
     background-color: rgba(34, 34, 34, 1);
+    padding: 3% 12% ;
 }
 .chart{
-    padding: 3% 12%;
+    /* padding: 3% 12%; */
 }
 .bmi-title{
     color: rgba(255, 255, 255, 1);
@@ -289,7 +290,7 @@ table{
     border-collapse: collapse;
     width: 350px;
     margin-top: 52px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 
 
 }
@@ -310,4 +311,73 @@ td{
     font-size: 14px;
     line-height: 120%;
     font-weight: 200;
+}
+
+.bmi-chart{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* calculate bmi */
+
+#bmi-form{
+    margin-top: 35px;
+
+    max-width: 657px;
+}
+
+.calculate-bmi{
+    text-align: left;
+}
+
+.input-bmi label    {
+
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    
+
+}
+.input-bmi{
+    margin-bottom: 12px;
+    
+}
+
+.input-bmi input,
+.input-bmi select {
+    /* width: 282px; */
+
+    
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#height{
+    width: 42%;
+}
+
+#age{
+    width: 42%;
+}
+
+#sex{
+    width: 49%;
+    margin-left: 8px;
+}
+#weight{
+    width: 43%;
+    margin-left: 8px;
+    margin-bottom: 1.5px
+}
+#activity{
+    width: 100%;
+}
+
+#form-btn{
+    margin-top: 34px;
+    width: 224px;
 }
