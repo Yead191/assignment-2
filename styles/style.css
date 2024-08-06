@@ -89,7 +89,7 @@ nav{
     border-radius: 46px;
 }
 .h-title{
-    font-size: 36px;
+    font-size: 2.2rem;
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -380,4 +380,91 @@ td{
 #form-btn{
     margin-top: 34px;
     width: 224px;
+}
+
+
+/* section team */
+
+.team{
+    /* border: 1px solid tomato; */
+    margin-bottom: 100px;
+
+}
+
+.team-text{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+
+.img-text{
+    color: rgba(255, 255, 255, 1);
+    line-height: 120%;
+    font-size: 1.15rem;
+    margin-bottom: 0px;
+
+}
+.img-box img{
+    width: 90%;
+    height: 92%;
+    border-radius: 18px;
+    margin-left: 10px;
+}
+.img-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+}
+.text-box{
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+
+/* footer */
+.footer{
+    padding: 5% 12% ;
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(153, 153, 153, 1) ); */
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-text{
+    max-width: 600px;
+}
+#f-p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-size: 0.9rem;
+
+}
+
+#f-title{
+    font-size: 4rem;
+}
+/* .get-started{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.f-t{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+.f-des{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    font-weight: 300;
+
 }
