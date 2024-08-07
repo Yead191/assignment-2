@@ -513,6 +513,11 @@ footer{
 
 
 
+.none{
+    display: none;
+}
+
+
 
 /* ------------------------------------------------------------------------------------------------ *//* ------------------------------------------------------------------------------------------------ */
 
@@ -526,6 +531,10 @@ footer{
 
 /* Mobile device */
 @media screen and (max-width: 567px) {
+
+    /* body{
+        border: 1px solid tomato;
+    } */
 
     .margin{
         width: auto;
@@ -563,7 +572,8 @@ footer{
         margin-left: -20px;
     }
     #c-2{
-        margin-left: 170px;
+        margin-left: 150px;
+
     }
 
 
@@ -607,10 +617,10 @@ footer{
 
 
     #height{
-        width: 37%;
+        width: 36%;
     }
     #weight{
-        width: 37%;
+        width: 35%;
         margin-left: 5px;
         margin-bottom: 1.5px
     }
@@ -620,9 +630,9 @@ footer{
     }
     
     #sex{
-        width: 48.6%;
+        width: 46.6%;
 
-        margin-left: 5px;
+        margin-left: 4px;
     }
     
     #activity{
@@ -647,6 +657,10 @@ footer{
     }
     .footer{
         flex-direction: column;
+    }
+    .head-img img{
+        width: 100%;
+        margin: 0;
     }
 
 
