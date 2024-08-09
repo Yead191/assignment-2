@@ -668,3 +668,76 @@ footer{
 
 
 }
+
+@media screen and (min-width: 567px) and (max-width: 992px) {
+    .margin{
+        width: auto;
+        margin: 0 5%;
+    }
+    .nav{
+        margin: 2.5%;
+    }
+
+    .margin-head{
+        margin: 0;
+    }
+    .navbar > ul{
+        width: auto;
+        gap: 20px;
+         
+        font-weight: 300;
+        padding: 3px 20px 3px 3px;
+    }
+    .navbar > ul > li > a{
+        font-size: 1rem;
+    }
+    .head-container{
+        flex-direction: column;
+    }
+    .head-text{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .head-img{
+        max-width: 500px;
+        margin: 0 auto;
+
+    }
+    .head-img img{
+        margin: 0;
+        width: fit-content;
+    }
+
+
+    .habit{
+        padding: 0 5%;
+    }
+    .habit-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .extra-mile{
+
+        padding: 5%;
+    
+    }
+    .extra-mile-text{
+        font-size: 0.8rem;
+        max-width: 250px;
+    }
+    .extra-mile> img{
+        max-width: 300px;
+    }
+    #btn-mile{
+        width: 90%;
+        padding: 6% 20%; 
+    }
+
+
+
+
+
+    
+}
