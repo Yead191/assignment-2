@@ -344,7 +344,8 @@ td{
 #bmi-form{
     margin-top: 35px;
 
-    max-width: 657px;
+    max-width: 100%;
+    /* border: 1px solid tomato; */
 }
 
 .calculate-bmi{
@@ -378,29 +379,30 @@ td{
 }
 
 #height{
-    width: 42%;
+    width: 44.5%;
+}
+#weight{
+    width: 44%;
+    margin-left: 8px;
+    margin-bottom: 1.5px
 }
 
 #age{
-    width: 42%;
+    width: 44.5%;
 }
 
 #sex{
     width: 49%;
     margin-left: 8px;
 }
-#weight{
-    width: 43%;
-    margin-left: 8px;
-    margin-bottom: 1.5px
-}
+
 #activity{
     width: 100%;
 }
 
 #form-btn{
     margin-top: 34px;
-    width: 224px;
+    width: 250px;
 }
 
 
@@ -460,6 +462,7 @@ td{
 .footer{
     display: flex;
     justify-content: space-around;
+    border: 1px solid tomato;
 }
 footer{
     padding: 5% 12% 0.8% 12% ;
@@ -617,11 +620,11 @@ footer{
 
 
     #height{
-        width: 36%;
+        width: 37%;
     }
     #weight{
-        width: 35%;
-        margin-left: 5px;
+        width: 37.5%;
+        margin-left: 1px;
         margin-bottom: 1.5px
     }
     
@@ -630,9 +633,9 @@ footer{
     }
     
     #sex{
-        width: 46.6%;
+        width: 49.6%;
 
-        margin-left: 4px;
+        margin-left: 1px;
     }
     
     #activity{
@@ -733,6 +736,62 @@ footer{
     #btn-mile{
         width: 90%;
         padding: 6% 20%; 
+    }
+
+
+
+
+
+    .bmi-calculator{
+        width: auto;
+        margin-left: 20px;
+    }
+    .bmi-chart{
+        flex-direction: column;
+        padding: 2% 1% 2% 5%;
+    }
+
+
+    #bmi-form{
+        /* border: 1px solid tomato; */
+        width: 100%;
+    }
+
+    #height{
+        width: 43.5%;
+    }
+    #weight{
+        width: 43.3%;
+        margin-left: 5px;
+        margin-bottom: 1.5px
+    }
+    
+    #age{
+        width: 43.5%;
+    }
+    
+    #sex{
+        width: 49.1%;
+
+        margin-left: 4px;
+    }
+    
+    #activity{
+        width: 100%;
+    }
+    .f-text{
+        max-width: 100%;
+    }
+    
+
+    footer{
+        border: 1px solid tomato;
+        padding: 7% 4% 4% 4%;
+    }
+
+
+    .footer{
+        display: grid;
     }
 
 
