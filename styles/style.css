@@ -657,6 +657,7 @@ footer{
         margin: 0;
     }
     /* nav */
+
     .navbar > ul{
         display: none;
     }
@@ -803,6 +804,12 @@ footer{
         max-width: 560px;
         margin: 0 1.5%;
         margin-bottom: 100px;
+    }
+
+    .f-last{
+        font-size: 1rem;
+        margin-top: 4px;
+        margin-bottom: 0;
     }
 
 
