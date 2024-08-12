@@ -469,6 +469,7 @@ td{
     background-color: #484a52;
     border-radius: 20px;
     width: 100%;
+    margin-bottom: -20px;
 }
 #sub-btn-2{
     margin-top: 20px;
@@ -476,6 +477,7 @@ td{
     border-radius: 20px;
     width: 100%;
     color: #ed002e;
+    margin-bottom: -20px;
 }
 
 
@@ -569,7 +571,8 @@ td{
     /* border: 1px solid tomato; */
 }
 footer{
-    padding: 5% 12% 0.8% 12% ;
+    
+    padding: 5% 12% 0.05% 12% ;
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(153, 153, 153, 1) ); */
     background-color: rgba(255, 255, 255, 0.1);
     /* display: flex; */
@@ -777,6 +780,8 @@ footer{
     }
     .sub-head{
         padding: 40px 55px;
+        position: sticky;
+        top: 0;
     
     }
     #sub-card-1{
@@ -919,7 +924,8 @@ footer{
         width: 100%;
     }
     .f-text{
-        max-width: 100%;
+
+        width: 900px;
     }
     
 
