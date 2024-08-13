@@ -117,6 +117,7 @@ nav{
 }
 header{
     margin-bottom: 50px;
+    
 }
 
 /* head text */
@@ -932,7 +933,7 @@ footer{
     }
     .f-text{
 
-        width: 900px;
+        width: 100%;
     }
     
 
